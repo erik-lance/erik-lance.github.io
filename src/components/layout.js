@@ -4,14 +4,22 @@ import { GlobalStyle } from '@styles'
 
 const StyledContent = styled.div`
     display: flex;
-    flex-direction: column;
+
+    #layout-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 100px;
+    }
 `;
 
 const Layout = ({children}) => {
     return (
         <StyledContent>
             <GlobalStyle />
-            {children}
+            <div id='layout-content'>
+                {children}
+            </div>
         </StyledContent>
 
     );

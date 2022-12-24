@@ -5,7 +5,6 @@ const StyledHeroSection = styled.section`
 	height: 600px;
 	width: 100%;
 	border: 4px solid var(--black);
-	padding: 10px 100px;
     display: flex;
     align-items: center;    
 

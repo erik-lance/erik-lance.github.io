@@ -4,6 +4,7 @@ import { GlobalStyle } from '@styles'
 
 const StyledContent = styled.div`
     display: flex;
+    flex-direction: column;
 `;
 
 const Layout = ({children}) => {

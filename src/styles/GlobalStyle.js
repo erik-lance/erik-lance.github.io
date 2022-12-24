@@ -10,6 +10,10 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Inter';
         font-weight: 400;
     }
+
+    body {
+        margin: 0;
+    }
 `;
 
 export default GlobalStyle;

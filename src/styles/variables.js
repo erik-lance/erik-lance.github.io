@@ -9,10 +9,6 @@ const variables = css`
 		--dark-gray: #535353;
 		--green: #4ecb71;
 	}
-
-	* {
-		font-family: 'InterRegular';
-	}
 `;
 
 export default variables;

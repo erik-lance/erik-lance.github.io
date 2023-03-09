@@ -9,19 +9,25 @@ const StyledAboutSection = styled.section`
 `;
 
 const StyledHeader = styled.div`
-    h1 {
-        margin-right: 20px; /* Add some margin to the right of the header element */
+    display: flex;
+    align-items: center;
+    margin-right: 40%;
+
+
+	h1 {
+		margin-right: 20px; /* Add some margin to the right of the header element */
+	}
+
+	/* Creates a line to the right */
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: var(--black);
+        margin-top: 10px;
     }
-    
-    hr {
-        position: absolute; /* Position the horizontal line relative to the container */
-        top: 50%; /* Position the horizontal line in the middle of the container */
-        left: calc(100% + 10px); /* Position the horizontal line to the right of the header element */
-        transform: translateY(-50%); /* Center the line vertically */
-        width: 100%; /* Set the width of the line */
-        border: none; /* Remove the border */
-        border-top: 2px solid black; /* Set the color and thickness of the line */
-    }
+
 `;
 
 const StyledContent = styled.div`
@@ -46,12 +52,11 @@ const StyledImg = styled.div`
 const About = () => {
 	return (
 		<StyledAboutSection>
-            <StyledHeader>
-                <h1>About</h1>
-                <hr />
-            </StyledHeader>
+			<StyledHeader>
+				<h1>About</h1>
+			</StyledHeader>
 			<StyledContent>
-				<StyledText>	
+				<StyledText>
 					<p>
 						Howdy! I'm Erik Lance Tiongquico, a student at De La
 						Salle University and a&nbsp;

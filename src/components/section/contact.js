@@ -5,6 +5,8 @@ const StyledContactSection = styled.section`
     font-family: 'InterRegular';
     background-color: var(--green);
     text-align: center;
+
+    margin-bottom: 200px;
 `;
 
 const Contact = () => {
@@ -12,6 +14,7 @@ const Contact = () => {
         <StyledContactSection>
             <h1>Contact</h1>
             <p>Erik Test</p>
+            <a href="mailto:eriklance@gmail.com" target="_blank">Leave an email!</a>
         </StyledContactSection>
     )
 }

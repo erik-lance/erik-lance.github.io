@@ -9,7 +9,7 @@ const StyledContent = styled.div`
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 0px 100px;
+        padding: 0px 200px;
     }
 `;
 
@@ -17,6 +17,7 @@ const Layout = ({children}) => {
     return (
         <StyledContent>
             <GlobalStyle />
+            
             <div id='layout-content'>
                 {children}
             </div>

@@ -28,7 +28,7 @@ const StyledHeader = styled.div`
 		display: block;
 		width: 100%;
 		height: 1px;
-		background-color: var(--black);
+		background-color: var(--gray);
 		margin-top: 10px;
 	}
 `;

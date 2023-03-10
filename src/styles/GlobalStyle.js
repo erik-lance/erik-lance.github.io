@@ -13,10 +13,12 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         margin: 0;
+        background-color: var(--dark-gray);
+        color: var(--white);
     }
 
     .component-header {
-        color: var(--orange);
+        color: var(--blue);
     }
 
     a {
@@ -25,10 +27,10 @@ const GlobalStyle = createGlobalStyle`
     }
 
     /* unvisited link */
-    a:link { color: var(--dark-green); }
+    a:link { color: var(--pink); }
 
     /* visited link */
-    a:visited { color: var(--dark-green); }
+    a:visited { color: var(--pink); }
 
     /* mouse over link */
     a:hover {
@@ -37,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
 
     /* selected link */
     a:active {
-        color: var(--dark-green);
+        color: var(--green);
     }
 `;
 

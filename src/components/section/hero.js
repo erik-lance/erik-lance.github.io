@@ -20,23 +20,23 @@ const StyledHeroSection = styled.section`
 
 	.hero-text:nth-child(1) {
 		font-size: 15px;
-		color: var(--dark-green);
+		color: var(--yellow);
 	}
 
 	.hero-text:nth-child(2) {
 		font-weight: 700;
 		font-size: 48px;
-		color: var(--orange);
+		color: var(--pink);
 	}
 
 	.hero-text:nth-child(3) {
 		font-size: 48px;
-		color: var(--dark-gray2);
+		color: var(--gray);
 	}
 
 	.hero-text:nth-child(4) {
 		font-size: 15px;
-		color: var(--dark-gray2);
+		color: var(--gray);
 	}
 `;
 

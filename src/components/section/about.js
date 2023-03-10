@@ -53,7 +53,7 @@ const About = () => {
 	return (
 		<StyledAboutSection>
 			<StyledHeader>
-				<h1>About</h1>
+				<h1 class="component-header">About</h1>
 			</StyledHeader>
 			<StyledContent>
 				<StyledText>

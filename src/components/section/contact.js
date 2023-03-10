@@ -12,8 +12,8 @@ const StyledContactSection = styled.section`
 const Contact = () => {
     return (
         <StyledContactSection>
-            <h1>Contact</h1>
-            <p>Erik Test</p>
+            <h1 class="component-header">Contact</h1>
+            <p>Erik Test chat me idk</p>
             <a href="mailto:eriklance@gmail.com" target="_blank">Leave an email!</a>
         </StyledContactSection>
     )

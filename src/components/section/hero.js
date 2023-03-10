@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledHeroSection = styled.section`
-	height: 600px;
+	height: 800px;
 	width: 100%;
 	/*border: 4px solid var(--black);*/
 	display: flex;
@@ -19,23 +19,23 @@ const StyledHeroSection = styled.section`
 	}
 
 	.hero-text:nth-child(1) {
-		font-size: 15px;
+		font-size: 18px;
 		color: var(--yellow);
 	}
 
 	.hero-text:nth-child(2) {
 		font-weight: 700;
-		font-size: 48px;
+		font-size: 60px;
 		color: var(--pink);
 	}
 
 	.hero-text:nth-child(3) {
-		font-size: 48px;
+		font-size: 60px;
 		color: var(--gray);
 	}
 
 	.hero-text:nth-child(4) {
-		font-size: 15px;
+		font-size: 18px;
 		color: var(--gray);
 	}
 `;

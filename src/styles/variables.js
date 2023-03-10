@@ -13,7 +13,8 @@ const variables = css`
 		// --white: #cfcdce;
 		// --dark-gray2: #8a8076;
 
-
+		--black: rgb(16, 15, 19);
+		--light-gray: rgb(147, 136, 132);
 		--dark-gray: rgb(30, 29, 35);
 		--white: rgb(222, 215, 208);
 		--yellow: rgb(240, 206, 89);
